@@ -6,5 +6,6 @@ function driversWithRevenueOver(array, num) {
 
 function driverNamesWithRevenueOver(array, num) {
   let array_1 = driversWithRevenueOver(array, num);
-  let new_array = array_1.map(x => x.name)
+  let new_array = array_1.map(x => x.name);
+  return new_array;
 }
