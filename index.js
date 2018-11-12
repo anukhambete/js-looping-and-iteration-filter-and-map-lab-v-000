@@ -4,6 +4,6 @@ function driversWithRevenueOver(array, num) {
   return new_array;
 }
 
-function driverNamesWithRevenueOver() {
-  
+function driverNamesWithRevenueOver(array, num) {
+
 }
