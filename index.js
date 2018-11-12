@@ -1,4 +1,5 @@
 // Code your solution here:
 function driversWithRevenueOver(array, num) {
-  let new_array = array.filter(x => x.revenue > num)
+  let new_array = array.filter(x => x.revenue > num);
+  return new_array;
 }
