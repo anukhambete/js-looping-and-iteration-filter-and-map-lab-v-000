@@ -18,8 +18,6 @@ return new_array;
 }
 
 function exactMatchToList(array, obj) {
-  let keyname = Object.keys(obj)[0];
-  let valuename = Object.values(obj)[0];
-    let new_array = array.filter(x => x[keyname] === valuename);
+  let temp = exactMatch(array, obj)
   return new_array;
 }
