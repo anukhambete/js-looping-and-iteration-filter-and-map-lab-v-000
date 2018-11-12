@@ -17,6 +17,6 @@ let valuename = Object.values(obj)[0];
 return new_array;
 }
 
-function exactMatchToList() {
-  
+function exactMatchToList(array, obj) {
+
 }
