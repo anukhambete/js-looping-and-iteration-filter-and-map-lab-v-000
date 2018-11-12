@@ -19,6 +19,6 @@ return new_array;
 
 function exactMatchToList(array, obj) {
   let temp = exactMatch(array, obj);
-  new_array = temp.map(x => x.name)
+  new_array = temp.map(x => x.name);
   return new_array;
 }
